@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
                   'Eviniz için,\nEn Yeni Fikirler',
                   style: TextStyle(
                     fontSize: 28,
-                    fontWeight: FontWeight.w900
+                    fontWeight: FontWeight.w700
                   ),
                 ),
 
