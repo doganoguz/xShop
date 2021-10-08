@@ -19,7 +19,7 @@ class HomeScreen extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Eviniz için,\nEn Yeni Fikirler',
+                  'Eviniz için,\nEn Yeni Fikirler Sizlerle',
                   style: TextStyle(
                     fontSize: 28,
                     fontWeight: FontWeight.w700
