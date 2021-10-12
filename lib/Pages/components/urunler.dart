@@ -14,6 +14,7 @@ class Products extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.only(top: kDefaultPadding * 0.8),
       child: SingleChildScrollView(
+
         scrollDirection: Axis.horizontal,
         child: Row(
           children: [
