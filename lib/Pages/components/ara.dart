@@ -16,7 +16,7 @@ class SearchBar extends StatelessWidget {
           flex: 5,
           child: TextField(
             decoration: InputDecoration(
-              hintText: 'Ne aramak istediniz..',
+              hintText: 'Ne aramıştınız..',
               hintStyle: TextStyle(
                 color: kPrimaryColor.withOpacity(0.5)
               ),
