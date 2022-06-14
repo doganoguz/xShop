@@ -10,7 +10,7 @@ class SearchBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
+//adam adammmm
 
     return Row(
       children: [
@@ -19,25 +19,22 @@ class SearchBar extends StatelessWidget {
           child: TextField(
             decoration: InputDecoration(
               hintText: 'Ne aramıştınız..',
-              hintStyle: TextStyle(
-                color: kPrimaryColor.withOpacity(0.5)
-              ),
+              hintStyle: TextStyle(color: kPrimaryColor.withOpacity(0.5)),
               contentPadding: EdgeInsets.symmetric(vertical: 10),
-              prefixIcon: SvgPicture.asset('assets/icons/search.svg', fit: BoxFit.scaleDown),
+              prefixIcon: SvgPicture.asset('assets/icons/search.svg',
+                  fit: BoxFit.scaleDown),
               enabledBorder: OutlineInputBorder(
-                borderSide: BorderSide(color: kSecondaryColor.withOpacity(0.1)),
-                borderRadius: BorderRadius.circular(0)
-              ),
+                  borderSide:
+                      BorderSide(color: kSecondaryColor.withOpacity(0.1)),
+                  borderRadius: BorderRadius.circular(0)),
               focusedBorder: OutlineInputBorder(
-                borderSide: BorderSide(color: kSecondaryColor.withOpacity(0.1)),
-                borderRadius: BorderRadius.circular(0)
-              ),
+                  borderSide:
+                      BorderSide(color: kSecondaryColor.withOpacity(0.1)),
+                  borderRadius: BorderRadius.circular(0)),
             ),
           ),
         ),
-
         Spacer(),
-
         Expanded(
           child: GestureDetector(
             onTap: () {},
