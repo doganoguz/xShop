@@ -14,12 +14,20 @@ class Categories extends StatefulWidget {
 class _CategoriesState extends State<Categories> {
   int selectedIndex = 0;
 
-  int selecteddIndex = 0;
-  int selectedddIndex = 0;
+  int selecteddIndex = 1;
+  int selectedddIndex = 2;
 
   @override
   Widget build(BuildContext context) {
     List<String> placesCategoris = [
+      "Sandalyeler",
+      "Kanepeler",
+      "Dolaplar",
+      "Masalar",
+      "Yataklar"
+    ];
+
+    List<String> Urunler = [
       "Sandalyeler",
       "Kanepeler",
       "Dolaplar",
